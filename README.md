@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon Elixir error related to unhandled exceptions within `Enum.each`. The `bug.exs` file shows how using `throw` inside `Enum.each` without a corresponding `catch` results in the code terminating abruptly.  The solution in `bugSolution.exs` showcases how to properly handle exceptions using a `try...catch` block for robust error management. 
